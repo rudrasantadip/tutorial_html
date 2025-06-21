@@ -1,0 +1,171 @@
+<!-- specifies the type of document that is being sent -->
+<!DOCTYPE html>
+
+<!-- 
+We may specify attributes inside a tag, which define a certain property
+-->
+
+<!-- 
+attibute lang here is used to specify the type of language here
+-->
+<html lang="en">
+  <!-- Head generally contains "metadata"
+
+Meta Data: Data about other data
+  -->
+  <head>
+    <!-- this defines the character set -->
+    <meta charset="UTF-8" />
+
+    <!--  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--  -->
+    <title>HTML Tutorial</title>
+  </head>
+
+  <body>
+    <!-- Introduction to HTML -->
+    <section>
+      <h1>1. Introduction to HTML</h1>
+      <p>
+        HTML is a standard markup language, for creating webpages.It is usefull
+        for structuring the content, and tells the browser how to display the
+        elements.
+      </p>
+
+      <h2>1.1. Properties of HTML</h2>
+      <!-- ol stands for ordered list, which means elements in it will be automatically 
+     numbered -->
+      <ol>
+        <li>Case Insensitive</li>
+        <li>Markup Language</li>
+      </ol>
+    </section>
+
+    <!-- Text Formating -->
+    <section>
+      <h1>2. Text Formatting</h1>
+
+      <h3>This is a sample Text</h3>
+
+      <p>
+        <b>Lorem</b> <i>ipsum</i>, dolor <u>sit amet consectetur</u> adipisicing elit. Optio illum
+        laboriosam blanditiis tempora! Id, harum blanditiis molestias, rerum
+        <mark>voluptate</mark>, doloribus et pariatur eius tenetur labore tempore itaque
+        provident quia laborum! Aliquam ratione magnam eos illo doloribus
+        laboriosam nihil? Qui, inventore.
+
+        <h2>Co<sub>2</sub> </h2>
+        <h2>e<sup>x</sup></h2>
+
+        <small>this is a small text</small>
+        <br>
+        <del>This is deleted</del><br>
+        <q>With great powers come great responsibility...dattebayo</q>
+      </p>
+
+       <details>
+        <summary>Click Here</summary>
+        <p>Welcome</p>
+        </details>
+    </section>
+
+    <!-- images and hyperlinks -->
+    <section>
+
+        <h1>3. Images and Hyperlinks</h1>
+        <!-- hyperlink:- a link to another webpage -->
+         <!-- external link -->
+
+        <h3>3.1 Hyper Links</h3>
+        <a href="https://www.google.com" target="_blank">
+            Google
+        </a>
+            <br>
+         <!-- internal link -->
+        <a href="about.html">About us</a>
+
+        <h3>3.2 Images</h3>
+
+        <!-- self closing -->
+         <!-- external linking -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgHgiF4W2gyWc7TPGcM82s-lVdp3PRbcLmDg&s" alt="">
+
+        <!-- internal linking -->
+         <img src="boruto.jpg" alt="">
+    </section>
+
+
+    <!-- Lists in HTML -->
+    <section>
+        <h1>4. Lists in html</h1>
+
+        <section>
+            <h3>Unordered List:- here the order to the list items is not necessary, we use the
+            "ul" tag to define an unordered list, inside which we can use the "li" list item tag
+        </h3>
+        <h4>Random Anime Names</h4>
+        <ul>
+            <li>Hunter X Hunter</li>
+            <li>Naruto</li>
+            <li>Death Note</li>
+            <li>Classroom of the Elite</li>
+        </ul>
+        </section>
+
+        <section>
+            <h3>Ordered List:- here the order to the list items is necessary, we use the
+            "ol" tag to define an ordered list, inside which we can use the "li" list item tag
+        </h3>
+
+        <h4>My Top Rated Animes</h4>
+        <ol>
+            <li>Attack on Titan</li>
+            <li>Misfit of the Demon King Academy</li>
+            <li>Fate</li>
+            <li>Berserk</li>
+            <li>Castlevania</li>
+            <li>Record of Ragnarok</li>
+        </ol>
+        </section>   
+    </section>
+
+    <section>
+        <h2>Tables</h2>
+
+        <table border="1">
+
+            <thead>
+                <th>Programming Language</th>
+                <th>Expertise</th>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>Java</td>
+                <td>Pro+++</td>
+            </tr>
+
+            <tr>
+                <td>C</td>
+                <td>Pro+++</td>
+            </tr>
+
+            <caption>Table 1.1</caption>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- HTML Forms -->
+    <section>
+        <h1>Forms</h1>
+
+        <a href="login.html">Login Form</a>
+    </section>
+
+
+  </body>
+
+  <!-- html closes here -->
+</html>
